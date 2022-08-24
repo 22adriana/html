@@ -6,24 +6,65 @@ z<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LISTA Y FORMULARIOS</title>
 </head>
-<body style="background-color: coral;">
+<body style="background-color: rgb(40, 114, 119);">
     <header>
         <img src="img/incap.png" width="100" height="100" alt="incap">"
-        <h1>LISTAS EN HTML</h1>
+        <h1>LISTAS Y FORMULARIOS HTML</h1>
         <h2>MENU NAVEGACIÓN</h2>
     </header>
 <nav>
 <ul>
-    <li type="disc" style="color:red;">Home</li>
-    <li type="square">Productos</li>
-    <li type="circle">Servicios</li>
-    <li>Contacto</li>
+    <li type="square" style="color: white ;">HOME</li>
+    <li type="disc" style="color: white ;">PRODUCTOS</li>
+    <li type="circle" style="color: white ;">SERVICIOS</li>
+    <li type="square" style="color: white ;">CONTACTO</li>
 </ul>
 </nav>
 <section>
-    <form action="datos.php" method="post"></form>
-</section>
-    
-    
+    <form action="datos.php" method="post">
+    <fieldset>
+        <label>NOMBRE COMPLETO</label>
+        <input type="text" name="nombre"
+        placeholder="Ingresa su nombre"
+        required=""><br><br>
+        <label>EMAIL</label>
+        <input type="email" name="email"
+        placeholder="Ingresa su email"
+        required=""><br><br>
+        <label>CONTRASEÑA</label>
+        <input type="password"
+        name="Contraseña"
+        placeholder="Ingresa su contraseña"
+        required=""><br><br>
+        <hr>
+        <label>Selecione tus hobbies:</label>
+        <br>
+        <input type="checkbox" name="Cine">CINE<br>
+        <input type="checkbox" name="Lectura">LECTURA<br>
+        <input type="checkbox" name="Deporte">DEPORTE<br>
+        <hr>
+        <label>Estado civil:</label><br>
+        <input type="radio" name="estcivil" value="casado">CASADO(A)<br>
+        <input type="radio" name="estcivil" value="Soltero">SOLTERO(A)<br>
+        <input type="radio" name="estcivil" value="Viudo">VIUDO(A)<br><br>
+        <hr>
+        <label>PROGRAMAS TECNICOS</label>
+        <select name="select">
+            <option>Selecione programa..</option>
+            <option>Sistemas</option>
+            <option>Diseño gráfico</option>
+            <option>Contabilidad</option>
+        </select>
+        <br><br>
+        <hr>
+        <label>Tu comentario</label><br>
+        <textarea name="mensaje" id="" cols="40" rows="5"></textarea>
+    </fieldset>
+        <br><br>
+        <button type="submit">ENVIAR</button>
+        <button type="reset">CANCELAR</button>  
+    </form>
+    </section><br>
+        <footer>Derechos reservados &copy;2022 &#64; Adriana</footer>
 </body>
 </html>
