@@ -9,19 +9,6 @@ body{
     background-size: contain;
 }
 /* sección de estilos CSS3 para la cabecera pagina web*/
-img{
-    width: 100px;
-    height: 100px;
-    border-style: solid;
-}
-img{
-    transition: all 0.2s linear;
-}
-img:hover{
-    transform: rota(0,1);
-    border-radius: 30px;
-
-}
 .incap{
     border: none;
 }
@@ -67,6 +54,19 @@ section{
     border-radius: 20px;
     margin: 10px auto;
     background: linear-gradient(navy, lightblue);
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    }
+img{
+    transition: all 0.2s linear;
+}
+img:hover{
+    transform: scale(0,1);
+    border-radius: 30px;
+
 }
 form{
     background: silver;

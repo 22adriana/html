@@ -1,5 +1,6 @@
 body{
     background-color: white;
+    background-image:url(../img/CSS3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -7,7 +8,7 @@ body{
 }
 /* sección de estilos CSS3 para la cabecera pagina web*/
 .incap:hover{
-    transform: scale(0,9);
+    transform: scale s(0,9);
 }
 .incap{
     transition: all 0.5s ease;
