@@ -1,29 +1,16 @@
-
-/*sección de estilos CSS para la pagina web*/
 body{
     background-color: white;
-    background-image:url(../img/CSS3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: contain;
 }
 /* sección de estilos CSS3 para la cabecera pagina web*/
-img{
-    width: 100px;
-    height: 100px;
-    border-style: solid;
-}
-img{
-    transition: all 0.2s linear;
-}
-img:hover{
-    transform: rota(0,1);
-    border-radius: 30px;
-
+.incap:hover{
+    transform: scale(0,9);
 }
 .incap{
-    border: none;
+    transition: all 0.5s ease;
 }
 header{
     background-color: lightsteelblue;
@@ -68,6 +55,7 @@ section{
     margin: 10px auto;
     background: linear-gradient(navy, lightblue);
 }
+
 form{
     background: silver;
     width: 70%;
