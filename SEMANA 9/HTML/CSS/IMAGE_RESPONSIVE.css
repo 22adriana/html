@@ -6,7 +6,7 @@
 body {
   font-family: 'Bungee Spice', cursive;
   background-color: var(--fondo);
-  background-image: url();
+  background-image: url(../I);
 }
 .navbar-brand {
     font-size: 20px;
